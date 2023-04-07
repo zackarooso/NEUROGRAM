@@ -12,34 +12,21 @@
       margin: 0;
     }
     .neurogram-title {
-  font-size: 18pt;
-  color: red;
-  text-shadow: 2px 2px 0px yellow, 3px 3px 0px yellow;
-  text-align: center;
-  margin: 2rem 0;
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  background: white;
-  z-index: 1;
-}
-
+      font-size: 42px;
+      color: red;
+      text-shadow: 2px 2px 0px yellow, 3px 3px 0px yellow;
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
     }
     .landing-page {
-      background-image: url('1.jpeg');
-      height: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      position: relative;
     }
     .carousel-inner img {
       width: 100%;
-      height: auto;
+      height: 100vh;
       object-fit: cover;
     }
   </style>
@@ -116,7 +103,7 @@
       </div>
 
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery" data-bs-slide="prev">
+   <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
